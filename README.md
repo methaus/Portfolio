@@ -2,8 +2,8 @@
  Site Pessoal com informações profissionais, contato e trabalhos literários.
 
 ### Usado:
- HTML/CSS and JavaScript;
- Aulas || João Carlos Lima e Silva - [Website completo com HTML, CSS e JS](https://www.youtube.com/playlist?list=PLM_90--7SomWgfPYCXnpuoY2L-Z_Z-AiV) (Modificado); Acesso em 07/056/2021;
+ - HTML/CSS and JavaScript;
+ - Aulas || João Carlos Lima e Silva - [Website completo com HTML, CSS e JS](https://www.youtube.com/playlist?list=PLM_90--7SomWgfPYCXnpuoY2L-Z_Z-AiV) (Modificado) - Acesso em 07/056/2021;
 
 ## Aulas
 - :one: - Aula 02_Header
