@@ -376,20 +376,23 @@ header {
 	margin-bottom: .7rem;
 }
 
-.card-info button {
+.btn {
 	background-color: #0F0;
 	font-family: var(--font-action);
 	text-transform: uppercase;
 	letter-spacing: .07rem;
-	width: 6rem;
-	height: 2rem;
 	color: #000;
 	border: 0;
 	cursor: pointer;
 }
 
-.card-info button:hover {
+.btn:hover {
 	color: #FFF;
+}
+
+.card-info button {
+	width: 6rem;
+	height: 2rem;
 }
 
 .card:hover .card-info {
@@ -398,4 +401,97 @@ header {
 	visibility: visible;
 }
 
+.sessao-contato {
+	width: 100%;
+	height: 100vh;
+	background-color: #272727;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
+.contato-wrapper {
+	width: 60%;
+	height: 30rem;
+	display: flex;
+	box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+.contato-left {
+	width: 35%;
+	background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
+    url(imagens/contato.jpg);
+	  background-size: cover;
+}
+
+.contato-right {
+	width: 65%;
+	background-color: #eee;
+	padding: 1rem 3rem 3rem 3rem;
+}
+
+.sessao-contato h1 {
+	font-family: var(--font-primary);
+	font-size: ...;
+	font-weight: ...;
+	width: 100%;
+	text-align: center;
+	color: #222;
+}
+
+.sessao-contato form {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+}
+
+.input-group {
+	position: relative;
+}
+
+.field {
+	background: transparent;
+	font-family: var(--font-secondary);
+	font-size: 1.5rem;
+	width: 20rem;
+	height: 3rem;
+	margin: 1rem 0;
+	border: none;
+	border-bottom: .15rem dashed #555;
+	outline: none;
+}
+
+.field-label {
+	font-family: var(--font-secondary);
+	font-size: 1.5rem;
+	position: absolute;
+	text-transform: uppercase;
+	top: 1.5rem;
+	left: 0;
+	transition: all .5s ease;
+}
+
+.field:focus ~ label {
+	font-size: 1rem;
+	top: 0;
+}
+
+.field:focus {
+	border-bottom: 0.13rem solid;
+}
+
+.input-group textarea {
+	padding-top: 0.5rem;
+	min-width: 20rem;
+	min-height: 2rem;
+	max-width: 20rem;
+	max-height: 10rem;
+}
+
+.btn-submit {
+	font-size: ...;
+	width: 22rem;
+	height: 2rem;
+	margin-top: 1rem;
+}
