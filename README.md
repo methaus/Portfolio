@@ -10,3 +10,5 @@
 - :two: - Aula 03_Menu Interativo
 - :three: - Aula 04_Sessão de conhecimentos
 - :four: - Aula 05_Sessão de Projetos
+- :five: - Aula 06_Formulário de Contato
+- :six: - Aula 08_Footer e links

@@ -5,6 +5,10 @@
 	text-decoration: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
 	--font-primary: serif;
 	--font-secondary: sans-serif;
@@ -419,7 +423,7 @@ header {
 
 .contato-left {
 	width: 35%;
-	background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
+	background: linear-gradient(rgba(220, 220, 220, 0.7), rgba(150, 150, 150, 0.9)),
     url(imagens/contato.jpg);
 	  background-size: cover;
 }
@@ -494,4 +498,30 @@ header {
 	width: 22rem;
 	height: 2rem;
 	margin-top: 1rem;
+}
+
+footer {
+	background-color: #000;
+	font-family: var(--font-secondary);
+	font-size: ...;
+	display: flex;
+	width: 100%;
+	height: 2.5rem;
+	color: #FFF;
+	justify-content: center;
+	align-items: center;
+}
+
+#link-topo {
+	background-color: #DDD;
+	display: flex;
+	position: fixed;
+	width: 3rem;
+	height: 3rem;
+	right: 2.5rem;
+	bottom: 3rem;
+	color: #111;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 .1rem .6rem #000;
 }
