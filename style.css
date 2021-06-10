@@ -146,12 +146,12 @@ header {
 }
 
 .banner button {
+	background-color: #0F0;
 	font-size: 1.2rem;
 	font-family: var(--font-action);
 	text-transform: uppercase;
 	letter-spacing: .07rem;
 	color: #000;
-	background-color: #0F0;
 	border: 0;
 	padding: 1rem 3rem;
 	cursor: pointer;
@@ -252,9 +252,9 @@ header {
 .sessao-header h1 {
 	font-family: var(--font-primary);
 	font-size: 3rem;
-	border-bottom: solid 3px #000;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
+	border-bottom: solid 3px #000;
 }
 
 .conhecimentos {
@@ -312,4 +312,90 @@ header {
 	font-family: var(--font-secondary);
 	margin-top: 1rem;
 }
+
+.projetos {
+	display: flex;
+}
+
+.card {
+	position: relative;
+	width: 25%;
+	height: 20rem;
+}
+
+.card-img-wrapper {
+	background-color: #00F;
+	width: 100%;
+	height: 100%;
+}
+
+.card-img-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: .8;
+	transition: opacity .5s;
+}
+
+.card:hover .card-img-wrapper img {
+	opacity: .5;
+}
+
+.card-info {
+	position: absolute;
+	bottom: -2rem;
+	padding: 1.8rem;
+	text-shadow: .25rem .15rem .15rem rgba(0,0,0,.5);
+	opacity: 0;
+	visibility: hidden;
+	transition: all .5s;
+}
+
+.card-info h2 {
+	font-family: var(--font-primary);
+	font-size: ...;
+	font-weight: ...;
+	color: #EEE;
+	margin-bottom: .5rem;
+}
+
+.card-info h3 {
+	font-family: var(--font-action);
+	font-size: ...;
+	font-weight: ...;
+	color: #0F0;
+	margin-bottom: .7rem;
+}
+
+.card-info p {
+	font-family: var(--font-secondary);
+	font-size: ...;
+	font-weight: ...;
+	width: 80%;
+	color: #EEE;
+	margin-bottom: .7rem;
+}
+
+.card-info button {
+	background-color: #0F0;
+	font-family: var(--font-action);
+	text-transform: uppercase;
+	letter-spacing: .07rem;
+	width: 6rem;
+	height: 2rem;
+	color: #000;
+	border: 0;
+	cursor: pointer;
+}
+
+.card-info button:hover {
+	color: #FFF;
+}
+
+.card:hover .card-info {
+	bottom: 0rem;
+	opacity: 1;
+	visibility: visible;
+}
+
 
