@@ -148,7 +148,7 @@ html {
 		width: 25%;
 		height: 100vh;
 		right: -100%;
-		transition: right 1s ease-in-out;
+		transition: right 0.7s ease-in-out;
 	}
 	.show-menu .navbar, .show-menu .social-media {
 		right: 0;
@@ -169,7 +169,7 @@ html {
 	right: -100%;
 	bottom: 3rem;
 	z-index: 100;
-	transition: right 1s ease-in-out;
+	transition: right 0.7s ease-in-out;
 }
 
 .social-media i {
@@ -187,6 +187,11 @@ html {
 /* AREA DE PROJETOS */
 /* ---------------- */
 
+.card {
+	width: 260px;
+	height: 346px;
+}
+
 .card-img-wrapper img {
 	object-fit: cover;
 	opacity: .8;
@@ -197,7 +202,7 @@ html {
 	opacity: .5;
 }
 
-.card-body {
+.hover {
 	bottom: 0rem;
 	color: #FFF;
 	opacity: 0;
@@ -205,20 +210,34 @@ html {
 	transition: all .5s;
 }
 
-.card-body button {
+.hover button {
 	font-family: var(--font-action);
 	color: #000;
 	cursor: pointer;
 }
 
-.card-body button:hover {
+.hover button:hover {
 	color: #FFF;
 }
 
-.card:hover .card-body {
+.card:hover .hover {
 	bottom: 2rem;
 	opacity: 1;
 	visibility: visible;
+}
+
+.card-body-link {
+	bottom: 2rem;
+}
+
+.card-body-link button {
+	font-family: var(--font-action);
+	color: #FFF;
+	cursor: pointer;
+}
+
+.card-body-link button:hover {
+	color: #000;
 }
 
 /* -------- */
@@ -270,7 +289,24 @@ html {
 footer {
 	font-family: var(--font-secondary);
 	font-size: 0.8rem;
-	height: 2rem;
+}
+
+@media (min-width: 992px) {
+	footer {
+		height: 2rem;
+	}
+}
+
+footer i {
+	font-size: 15px;
+	width: 3rem;
+	height: 3rem;
+	color: #FFF;
+	transition: all 0.5s;
+}
+
+footer i:hover {
+	color: #000;
 }
 
 #link-topo {
