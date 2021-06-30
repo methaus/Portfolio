@@ -8,26 +8,27 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 		<title>Matheus Gabriel - Site</title>
 	</head>
-	<body class="body">
-		<div class="hamburguer d-none d-lg-flex position-fixed p-2 justify-content-evenly flex-column shadow-sm bg-dark">
+	<body class="body user-select-none">
+		<div class="hamburguer d-none d-lg-flex position-fixed p-2 justify-content-evenly flex-column shadow-sm">
 			<div class="line w-100 bg-light" id="line1"></div>
 			<div class="line w-100 bg-light" id="line2"></div>
 			<div class="line w-100 bg-light" id="line3"></div>
 			<span class="d-flex position-absolute text-uppercase justify-content-center align-items-center bg-secondary">fechar</span>
 		</div>
 		<aside>
-			<nav class="navbar navbar-light navbar-expand-lg position-fixed bg-primary">
+			<nav class="navbar navbar-light navbar-expand-lg position-fixed">
 				<div class="container-fluid p-0">
 					<span class="navbar-brand d-lg-none mx-2 px-1">Matheus - Site</span>
 					<button class="navbar-toggler d-lg-none mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 					<div class="collapse navbar-collapse pb-lg-4 mb-lg-4" id="navbarSupportedContent">
 						<ul class="navbar-nav d-flex flex-column text-uppercase me-auto mb-0">
 							<li class="d-lg-none"><hr class="dropdown-divider"></li>
-							<li class="nav-item ms-2"><a class="nav-link fs-3" aria-current="page" href="#home">Início</a></li>
-							<li class="nav-item ms-2"><a class="nav-link fs-3" aria-current="page" href="#proficional">Profissional</a></li>
-							<li class="nav-item ms-2"><a class="nav-link fs-3" aria-current="page" href="#projetos">Projetos</a></li>
-							<li class="nav-item ms-2"><a class="nav-link fs-3" href="#">Escrita</a></li>
-							<li class="nav-item ms-2"><a class="nav-link fs-3" aria-current="page" href="#contato">Contato</a></li>
+							<li class="nav-item ms-2 text-center text-lg-start"><a class="nav-link fs-3" aria-current="page" href="#home">Início</a></li>
+							<li class="nav-item ms-2 text-center text-lg-start"><a class="nav-link fs-3" aria-current="page" href="#proficional">Profissional</a></li>
+							<li class="nav-item ms-2 text-center text-lg-start"><a class="nav-link fs-3" aria-current="page" href="#projetos">Projetos</a></li>
+							<li class="nav-item ms-2 text-center text-lg-start"><a class="nav-link fs-3" href="#">Escrita</a></li>
+							<li class="nav-item ms-2 text-center text-lg-start"><a class="nav-link fs-3" aria-current="page" href="#contato">Contato</a></li>
+							 <li class="d-none d-lg-block ms-3"><hr class="dropdown-divider"></li>
 						</ul>
 					</div>
 				</div>
@@ -45,63 +46,63 @@
 			<div class="banner position-absolute">
 				<h1 class="fs-1 my-2">Programador, WebDev, GameDev & Escritor</h1>
 				<h2 class="fs-2 my-2">Matheus Gabriel de Lima</h2>
-				<button class="fs-4 text-uppercase my-3 px-5 py-3 border-0 bg-primary shadow-lg">Saiba Mais</button>
+				<button class="fs-4 text-uppercase my-3 px-5 py-3 border-0 shadow-lg">Saiba Mais</button>
 			</div>
 		</header>
 		<section class="bg-light" id="proficional">
 			<div class="d-flex justify-content-center align-items-center">
-				<h1 class="fs-1 my-4 border-bottom border-primary border-5">Profissional</h1>
+				<h1 class="fs-1 my-4 border-bottom border-secondary border-5">Profissional</h1>
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col m-1 px-4 bg-info">
+					<div class="hab-info col m-1 px-4">
 						<div class="d-flex my-3">
 							<i class="fas fa-code fs-1 me-2"></i>
 							<h3 class="fs-3 pt-1">HTML/CSS</h3>
 						</div>
 						<div class="row">
-							<p>Conhecimento para criação de sites e seus estilos.</p>
+							<p>Linguagens de marcação e estilização base das páginas web.</p>
 						</div>
 					</div>
-					<div class="col m-1 px-4 bg-info">
+					<div class="hab-info col m-1 px-4">
 						<div class="d-flex my-3">
 							<i class="fab fa-js-square fs-1 me-2"></i>
 							<h3 class="fs-3 pt-1">JavaScript</h3>
 						</div>
 						<div class="row">
-							<p>Básico sobre a linguagem e sua aplicação em websites.</p>
+							<p>Junto com HTML e CSS, principal tecnologia de desenvolvimento web e front-end.</p>
 						</div>
 					</div>
-					<div class="col m-1 px-4 bg-info">
+					<div class="hab-info col m-1 px-4">
 						<div class="d-flex my-3">
 							<i class="fab fa-bootstrap fs-1 me-2"></i>
 							<h3 class="fs-3 pt-1">Bootstrap</h3>
 						</div>
 						<div class="row">
-							<p>Uso do framework para produção rápida e responsiva.</p>
+							<p>Framework para desenvolvimento de sites veloz, dinâmico e responsivo.</p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col m-1 px-4 bg-info">
+					<div class="hab-info col m-1 px-4">
 						<div class="d-flex my-3">
-							<img class="me-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAACjklEQVRYhc3Yu2sVQRQG8F+MIgo+QfCB4gOLKPgEjYjYxFZRUVIE7fIvCP4FFooPsIiFWtulDpJCUCMRGyFiIz5QifiKCIkmuRaz4jquc+/Ge+N+cGBmOHPOtzM7354dKo62JsZahkNZewAfmxj7n7AQZ/AZtcy+4hwW/Ude2nACz/wiFtsr9KJ9tsl14m6CWGwPcXA2iG3GLUyXIJe3AWxtBbFlwjs1PkNiefuGPqxoBrF5wjs02gRisX0QDtf8mZLrwuMWEIvtqXDYGsYWDM4CsdgG0RGTiYW6A0PK6dcU7uGBICvtWItd2F+QI4Uv2IuRvznc1PgTj+MiViYSrs98JkvEvZF6gqEGgzzH9lSgCHukBT1vQ6lAww2SW1WC3E9sFF6BevGH85PmlkwygcN4E40vwRHsyPqP0I+xnM8CvMSakjl/Q70VvFgwpxvvC3zfCfKxHFfwvU7swhUsQ3DSnweiW/qzNyWUXfkxgvjXsDuzpmzxPbzN9ZfgqrSMzMHSrH3HL/kYwTVhlWXtAwp0MEZqBc9HvqcTvkXWWyd3n4IVnFOPcQ6vo/62EnPhbC750azdkdkwjhVNKkOwEiizxacSvv9lizujfr8gL42iJyNBOBB9WJdZXzZWF6kVnPLnF+SkFstMGYI1XC6Yc1KQi9h3FMfNolDXhE/dzoJ5i4UtvJBZTzaWx1ZBS1tKsIYXWJ0K8hdsMoNiIT4kUw0kWov7QkHaKDpxW2OFQpJDmYJ1Qni3UqXXBlxSrmC9ng/QjJJ/WljRIaGcahekYzf2FeRIYUwo+Z+knDpU6Kcphcr+duZR6R/3PCp79RGjspdHMSp7/ZZHpS8w82jpFXCzL9G7svYAPjUxdnXxAy9IV/sptv2UAAAAAElFTkSuQmCC"/>
+							<img class="me-2" width="45" src="img/csharp.svg"/>
 							<h3 class="fs-3 pt-1">CSharp</h3>
 						</div>
 						<div class="row">
-							<p>Entendimento da linguagem fortemente tipada da plataforma .NET.</p>
+							<p>Linguagem de programação fortemente, parte da plataforma dotNET.</p>
 						</div>
 					</div>
-					<div class="col m-1 px-4 bg-info">
+					<div class="hab-info col m-1 px-4">
 						<div class="d-flex my-3">
 							<i class="fas fa-pencil-alt fs-1 me-2"></i>
 							<h3 class="fs-3 pt-1">Design</h3>
 						</div>
 						<div class="row">
-							<p>Edição de imagens em PhotoShop.</p>
+							<p>Edição em PhotoShop.</p>
 						</div>
 					</div>
-					<div class="col m-1 px-4 bg-info">
+					<div class="hab-info col m-1 px-4">
 						<div class="d-flex my-3">
 							<i class="fab fa-git-square fs-1 me-2"></i>
 							<h3 class="fs-3 pt-1">Git e GitHub</h3>
@@ -115,7 +116,7 @@
 		</section>
 		<section class="container mb-4" id="projetos">
 			<div class="d-flex justify-content-center align-items-center">
-				<h1 class="fs-1 my-4 border-bottom border-primary border-5">Projetos</h1>
+				<h1 class="fs-1 my-4 border-bottom border-secondary border-5">Projetos</h1>
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-auto mx-0 my-3">
@@ -127,7 +128,7 @@
 							<h2 class="card-title fs-3">Projeto Exemplo0</h2>
 							<h3 class="fs-4">Javascript</h3>
 							<p class="card-text">Qualquer coisa que seja para a característica da existência do próprio objeto.</p>
-							<button class="fs-5 text-uppercase px-5 py-1 border-0 bg-primary shadow-lg">Ver</button>
+							<button class="fs-5 text-uppercase px-5 py-1 border-0 shadow-lg">Ver</button>
 						</div>
 					</div>
 				</div>
@@ -140,7 +141,7 @@
 							<h2 class="card-title fs-3">Projeto Exemplo0</h2>
 							<h3 class="fs-4">Javascript</h3>
 							<p class="card-text">Qualquer coisa que seja para a característica da existência do próprio objeto.</p>
-							<button class="fs-5 text-uppercase px-5 py-1 border-0 bg-primary shadow-lg">Ver</button>
+							<button class="fs-5 text-uppercase px-5 py-1 border-0 shadow-lg">Ver</button>
 						</div>
 					</div>
 				</div>
@@ -153,7 +154,7 @@
 							<h2 class="card-title fs-3">Projeto Exemplo0</h2>
 							<h3 class="fs-4">Javascript</h3>
 							<p class="card-text">Qualquer coisa que seja para a característica da existência do próprio objeto.</p>
-							<button class="fs-5 text-uppercase px-5 py-1 border-0 bg-primary shadow-lg">Ver</button>
+							<button class="fs-5 text-uppercase px-5 py-1 border-0 shadow-lg">Ver</button>
 						</div>
 					</div>
 				</div>
@@ -165,38 +166,36 @@
 							<div class="fs-4 bg-secondary mb-2" style="width: 11rem; height: 1rem; opacity: .1;"></div>
 							<div class="fs-4 bg-secondary mb-2" style="width: 13rem; height: 1rem; opacity: .1;"></div>
 							<div class="fs-4 bg-secondary" style="width: 9rem; height: 1rem; margin-bottom: 1.2rem; opacity: .1;"></div>
-							<button class="fs-5 text-uppercase px-5 py-1 border-0 bg-primary shadow-lg">Ver todos</button>
+							<button class="fs-5 text-uppercase px-5 py-1 border-0 shadow-lg">Ver todos</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>		
-		<section class="d-flex w-100 vh-100 justify-content-center align-items-center bg-dark" id="contato">
-			<div class="contato-wrapper d-flex w-50 vh-75 shadow-lg bg-light">
-				<div class="d-flex w-50 h-100 justify-content-center align-items-center flex-column mx-5">
-					<h1 class="fs-1 mb-3">Contato</h1>
-					<form class="info w-100 d-flex justify-content-center flex-column">
-						<div class="d-flex flex-column">
-							<label for="nome" class="fs-5">Nome</label>
-							<input type="text" id="nome" class="input">								
-						</div>
-						<div class="d-flex flex-column mt-4">
-							<label for="email" class="fs-5">E-mail</label>
-							<input type="text" id="email" class="input">
-						</div>
-						<div class="d-flex flex-column mt-4">
-							<label for="mensagem" class="fs-5">Mensagem</label>
-							<textarea id="mensagem" class="py-1"></textarea>
-						</div>
-						<button type="submit" class="fs-5 w-100 text-uppercase my-3 py-2 border-0 bg-primary shadow-lg">Enviar</button>
-					</form>
-				</div>
-			</div>					
+		<section class="d-flex w-100 vh-100 justify-content-center align-items-center" id="contato">
+			<div class="contato-wrapper d-flex justify-content-center align-items-center flex-column shadow-lg">
+				<h1 class="fs-1 mb-3 mb-xl-5 mt-0 pt-0 border-bottom border-secondary border-5">Contato</h1>
+				<form class="info d-flex w-100 justify-content-center align-items-center flex-column">
+					<div class="d-flex w-75 flex-column mb-1">
+						<label for="nome">Nome</label>
+						<input type="text" id="nome" class="input w-100">								
+					</div>
+					<div class="d-flex w-75 flex-column mb-1">
+						<label for="email">E-mail</label>
+						<input type="text" id="email" class="input w-100">
+					</div>
+					<div class="d-flex w-75 flex-column mb-1">
+						<label for="mensagem">Mensagem</label>
+						<textarea class="w-100 mt-2" id="mensagem"></textarea>
+					</div>
+					<button type="submit" class="fs-5 w-75 text-uppercase my-3 py-1 border-0 shadow-lg">Enviar</button>
+				</form>
+			</div>
 		</section>
-		<footer class="d-flex w-100 justify-content-center align-items-center flex-column text-center bg-primary">
-			<p class="m-0 p-0">Copyright &copy; 2021; Matheus Gabriel de Lima || contato: mg01012021@hotmail.com<span class="d-lg-none">.</span></p>
+		<footer class="d-flex w-100 justify-content-center align-items-center flex-column text-center border-top border-secondary border-2">
+			<p class="m-0 p-0 user-select-auto">Copyright &copy; 2021; Matheus Gabriel de Lima || contato: mg01012021@hotmail.com<span class="d-lg-none">.</span></p>
 			<p class="d-lg-none"> Acesse as redes sociais:</p>
-			<div class="d-flex d-lg-none w-75 justify-content-evenly my-2">
+			<div class="social-foot d-flex d-lg-none w-75 justify-content-evenly my-2">
 				<a class="text-decoration-none" href="#"><i class="fab fa-whatsapp d-flex fs-1 justify-content-center align-items-center rounded-circle bg-dark"></i></a>
 				<a class="text-decoration-none" href="#"><i class="fab fa-github-alt d-flex fs-1 justify-content-center align-items-center rounded-circle bg-dark"></i></a>
 				<a class="text-decoration-none" href="#"><i class="fab fa-linkedin-in d-flex fs-1 justify-content-center align-items-center rounded-circle bg-dark"></i></a>
